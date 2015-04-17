@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{13C218A1-D6D9-4364-A243-7EA0D9BB6E28}</ProjectGuid>
+    <ProjectGuid>{7C10CB17-CA2D-4EB3-B315-9AB59880130A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>REST_API.Tests</RootNamespace>
@@ -39,6 +39,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.Extensions" />
@@ -53,9 +54,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\REST_API\REST_API.csproj">
-      <Project>{29E614E7-28F4-4530-8029-8A1ED6DFD643}</Project>
+      <Project>{8A13DF76-B33A-47DF-8E51-E1F69B74DBDB}</Project>
       <Name>REST_API</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
