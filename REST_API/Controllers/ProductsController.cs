@@ -21,14 +21,14 @@ namespace REST_API.Controllers
             return products;
         }
 
-        public IHttpActionResult GetProduct(int id)
+        public HttpResponseMessage GetProduct(int id)
         {
             var product = products.FirstOrDefault((p) => p.Id == id);
             if (product == null)
             {
-                return NotFound();
+                return Request.CreateResponse(System.Net.HttpStatusCode.NotFound);
             }
-            return Ok(product);
+            return Request.CreateResponse(product);
         }
     }
 }
