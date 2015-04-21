@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST_API", "REST_API\REST_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST_API.Tests", "REST_API.Tests\REST_API.Tests.csproj", "{7C10CB17-CA2D-4EB3-B315-9AB59880130A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services_Layer", "Services_Layer\Services_Layer.csproj", "{C42535A1-3C3B-471D-BD34-0B488E016E3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7C10CB17-CA2D-4EB3-B315-9AB59880130A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C10CB17-CA2D-4EB3-B315-9AB59880130A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C10CB17-CA2D-4EB3-B315-9AB59880130A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42535A1-3C3B-471D-BD34-0B488E016E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42535A1-3C3B-471D-BD34-0B488E016E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42535A1-3C3B-471D-BD34-0B488E016E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42535A1-3C3B-471D-BD34-0B488E016E3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
